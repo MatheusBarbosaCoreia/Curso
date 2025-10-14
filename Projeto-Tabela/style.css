@@ -5,6 +5,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(580966.jpg);
+    background-attachment: fixed;   
 }
 
 main{
@@ -32,9 +33,26 @@ h1{
     background:linear-gradient(to bottom, #445bfe,#9f62fc) ;
     text-align: center;
     padding: 10px;
-    margin-bottom: 50px;
 }
 
+#menu{
+    background-color: #9f62fc;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+h2{
+    background: linear-gradient(to bottom, #448efe,#9f62fc) ;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
 #android{
     background-color: rgba(95, 255, 47, 0.589);
 }
