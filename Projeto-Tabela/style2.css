@@ -42,10 +42,13 @@ h1{
 
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(12, 0, 0);
     margin: 10px;
 }
 
+main  a{
+    color: rgb(0, 17, 255);
+}
 h2{
     background: linear-gradient(to bottom, #448efe,#9f62fc) ;
     text-align: center;
@@ -53,9 +56,38 @@ h2{
     margin-bottom: 30px;
     padding-top: 10px;
 }
+h3{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     
+}
+
+img{
+    max-width: 400px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-size: cover;
+}
+
+footer{
+    background-color: rgba(253, 249, 249, 0.541);
+    text-align: center;
+}
+
+.imagens{
+    border-radius: 10px;
+    padding-bottom: 60vw;
+    background-size: contain;
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+#imagem1{
+    background-image: url(screenshot1_pt_BR.png);
 }
