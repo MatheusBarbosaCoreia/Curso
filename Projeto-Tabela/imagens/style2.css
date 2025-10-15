@@ -89,5 +89,17 @@ footer{
     background-repeat: no-repeat;
 }
 #imagem1{
+    background-image: url();
+}
+#imagem2{
+    background-image: url(screenshot1_pt_BR.png);
+}
+#imagem3{
+    background-image: url(screenshot1_pt_BR.png);
+}
+#imagem4{
+    background-image: url(screenshot1_pt_BR.png);
+}
+#imagem5{
     background-image: url(screenshot1_pt_BR.png);
 }
