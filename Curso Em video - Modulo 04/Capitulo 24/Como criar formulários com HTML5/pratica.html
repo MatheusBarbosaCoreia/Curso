@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="cadastro.php" autocomplete="on">
+        <p>
+            <label for="iusername">Nome de Usuario</label>
+            <input type="text" name="username" id="iusername" required minlength="2" maxlength="20" placeholder="Paulinbakna">
+        </p>
+        <p>
+            <label for="ijogo">Jogo</label>
+            <input type="text" name="jogo" id="ijogo" required minlength="4" maxlength="30" placeholder="Saints Row" autocomplete="name">
+        </p>
+        <p>
+            <label for="itamanho">Tamanho GB</label>
+            <input type="number" name="tamanho" id="itamanho" min="0" maxlength="10" required placeholder="10">
+        </p>
+        <p>
+            <label for="idata">Data de Lançamento</label>
+            <input type="date" name="data" id="idata" required value="2011-12-11" >
+        </p>
+        <p>
+            <label for="ihora">Horas Jogadas</label>
+            <input type="time" name="hora" id="ihora" required> 
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
