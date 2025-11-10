@@ -4,65 +4,149 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main{
+            width: 90%;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 10px;
+            text-align: center;
+            text-align: justify;
+            background-color: rgb(39, 38, 38);
+            border-radius: 10px;color: white;
+        }
+        body{
+          background-image: linear-gradient(to bottom, rgb(0, 28, 59),rgb(182, 117, 207));
+        }
+        .final{
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
-    <form action="cadastro.php" method="post" autocomplete="on">
-        <fieldset>
-            <legend>Dados Pessoais</legend>
-            <p>
-                <label for="inome">Nome</label>
-                <input type="text" name="nome" id="inome">
-            </p>
-            <p>
-                <label for="iidade">Idade</label>
-                <input type="number" name="idade" value="iidade">
-            </p>
-            <p>
-                <label for="itel">Telefone</label>
-                <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="(\d{2})\d{4}-\d{4}$" required placeholder="(xx) xxxxx-xxxx">
-            </p>
-            <p>
-                <label for="iemail">Email</label>
-                <input type="email" name="email" id="iemail">
-            </p>
-            <p>
-                <label for="isexo">Sexo</label>
-                <input type="radio" name="sexo" id="ixfem"><label for="ixfem">Feminino</label>
-
-                <input type="radio" name="sexo" id="ixmas"><label for="ixmas">Masculino</label>
-            </p>
-            <p>
-                <label for="ifoto">Foto De Perfil</label>
-                <input type="file" name="foto" id="ifoto">
-            </p>
-        </fieldset>
-        <br>
-        <fieldset>
-            <legend>Esportes Favoritos</legend>
-
-            <input type="checkbox" name="fut" id="ifut">
-            <label for="ifut">Futebol</label><br>
-
-            <input type="checkbox" name="bas" id="ibas">
-            <label for="ibas">Basquete</label><br>
-
-            <input type="checkbox" name="nat" id="inat">
-            <label for="inat">Natação</label><br>
-
-            <input type="checkbox" name="quei" id="iquei">
-            <label for="iquei">Queimada</label><br>
-
-            <input type="checkbox" name="ten" id="iten">
-            <label for="iten">Tênis</label><br>
-
-            <input type="checkbox" name="nem" id="inem">
-            <label for="inem">Nenhum</label>
-        </fieldset>
-        <br>
-        <fieldset>
-            <legend>Informações Adicionais</legend>
-            in
-        </fieldset>
-    </form>
+    <main>
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <p>
+                    <label for="inome">Nome:</label>
+                    <input type="text" name="nome" id="inome" placeholder="João Borges" required autocomplete="name">
+                </p>
+                <p>
+                    <label for="iidade">Idade:</label>
+                    <input type="number" name="idade" value="iidade" placeholder="21" autocomplete="on" required>
+                </p>
+                <p>
+                    <label for="itel">Telefone:</label>
+                    <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="\d{(2)} \d{5}-\d{4}" required placeholder="(xx) xxxxx-xxxx">
+                </p>
+                <p>
+                    <label for="iemail">Email:</label>
+                    <input type="email" name="email" id="iemail" placeholder="joaoborges@gmail.com" autocomplete="email" required>
+                </p>
+                <p>
+                    <label for="isexo">Sexo:</label>
+                    <input type="radio" name="sexo" id="ixfem"><label for="ixfem">Feminino</label>
+                    <input type="radio" name="sexo" id="ixmas"><label for="ixmas">Masculino</label>
+                    
+                </p>
+                <p>
+                    <label for="ifoto">Foto De Perfil</label>
+                    <input type="file" name="foto" id="ifoto">
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Esportes Favoritos</legend>
+                <br>
+                <input type="checkbox" name="fut" id="ifut">
+                <label for="ifut">Futebol</label><br>
+                <input type="checkbox" name="bas" id="ibas">
+                <label for="ibas">Basquete</label><br>
+                <input type="checkbox" name="nat" id="inat">
+                <label for="inat">Natação</label><br>
+                <input type="checkbox" name="quei" id="iquei">
+                <label for="iquei">Queimada</label><br>
+                <input type="checkbox" name="ten" id="iten">
+                <label for="iten">Tênis</label><br>
+                <input type="checkbox" name="nem" id="inem">
+                <label for="inem">Nenhum</label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Informações Adicionais</legend>
+                <br>
+                <label for="iestado">Estado</label>
+                <select name="estado" id="iestado">
+                    <option value="selected">-- Escolha --</option>
+                    <optgroup label="Região Sudeste">
+                        <option value="ES">Espírito Santo</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                    </optgroup>
+                    <optgroup label="Região Nordeste">
+                        <option value="AL">Alagoas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="MA">Maranhão</option>
+                    </optgroup>
+                    <optgroup label="Região Centro-Oeste">
+                        <option value="GO">Goiás</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="DF">Distrito Federal</option>
+                    </optgroup>
+                </select>
+                <p>
+                    <label for="idata">Morador desde de</label>
+                    <input type="date" name="data" id="idata" value="2025-07-12">
+                </p>
+                <label for="iprof">Profissão</label>
+                <input type="text" name="prof" id="iprof" list="lstprof">
+                <p>
+                <datalist id="lstprof">
+                    <option value="ADM">Administrador</option>
+                    <option value="DEV">Desenvolvedor</option>
+                    <option value="PROF">Professor</option>
+                    <option value="CONT">Contador</option>
+                    <option value="ADV">Advogado</option>
+                </datalist>
+                    <label for="isat">Nivel de Satisfação</label>
+                    <input type="range" name="sat" id="isat" min="0" max="10" oninput="ival.innerHTML = Number(isat.value)">
+                    <output id="ival">5</output>
+                </p>
+                <p>
+                    <label for="icor">Cor Favorita</label>
+                    <input type="color" name="cor" id="icor">
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Deixe Uma Mensagem</legend>
+                <br>
+                <label for="imsg">Mensagem</label>
+                <br>
+                <textarea name="msg" id="imsg"></textarea>
+                <p>
+                    <label for="idia">Data</label>
+                    <input type="date" name="dia" id="idia" value="2025-05-11">
+                </p>
+                <p>
+                    <label for="ihora">Horario</label>
+                    <input type="time" name="hora" id="ihora">
+                </p>
+            </fieldset>
+            <br>
+            <div class="final">
+                <input  type="submit" value="Enviar">
+                <input  type="reset" value="Limpar">
+            </div>
+        </form>
+    </main>
 </body>
 </html>
