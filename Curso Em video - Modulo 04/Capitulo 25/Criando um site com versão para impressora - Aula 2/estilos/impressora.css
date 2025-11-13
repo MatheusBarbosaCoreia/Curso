@@ -19,6 +19,6 @@ article{
     width: 100%;
 }
 
-article ::after{
+article::after{
     content: 'Esse artigo foi impresso atraves do site www.cursoemvideo.com';
 }
