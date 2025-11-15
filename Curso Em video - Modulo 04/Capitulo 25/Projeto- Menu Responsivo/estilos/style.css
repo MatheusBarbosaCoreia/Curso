@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body,html{
+    background-color: lightgray;
+}
+
+header{
+    background-color: rgba(42, 46, 44, 0.432);
+}
+
+header h1{
+    text-align: center;
+}
+
+header  ul{
+    list-style: none;
+}
+header li{
+    color: white;
+    background-color: rgba(55, 61, 61, 0.712);
+    display: inline-block;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
