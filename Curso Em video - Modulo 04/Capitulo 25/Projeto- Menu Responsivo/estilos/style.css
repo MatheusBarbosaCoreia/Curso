@@ -54,6 +54,10 @@ main article > p{
     text-align: justify;
 }
 
+#droid{
+    display: none;
+  
+    }
 @media screen and (min-width: 300px) and (max-width: 670px) {/*M*/
 
     menu#itens {
