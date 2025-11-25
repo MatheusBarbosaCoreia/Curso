@@ -50,6 +50,7 @@ div#formulario{
 h1{
     text-align: center;
     margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p#margen{
@@ -74,36 +75,28 @@ p#margen input{
     outline: none;
     border-radius: 6px;
 }
-
-/*input{
-    width: 390px;
-    height: 30px;
+input#mais{
     border-radius: 6px;
-    border-color: #5f2c82;
-    }*/
-    
-    input#mais{
-        border-radius: 6px;
-        margin: 4px 0;
-        width: 100%;
-        height: 30px;
-        color: rgb(74, 196, 196);
-        border-color: rgb(74, 196, 196);
-        border: 1px solid rgb(74, 196, 196);
-    }
-    input#mais1{
-        border-radius: 6px;
-        height: 30px;
-        width: 100%;
-        color: white;
-        border: 1px solid rgb(74, 196, 196);
-        background-color: #39a8a5;
-    }
-    #margen{
-        margin-top: 2px;
-        margin-bottom: 2px;
-    }
-    
+    margin: 4px 0;
+    width: 100%;
+    height: 30px;
+    color: rgb(74, 196, 196);
+    border-color: rgb(74, 196, 196);
+    border: 1px solid rgb(74, 196, 196);
+}
+input#mais1{
+    border-radius: 6px;
+    height: 30px;
+    width: 100%;
+    color: white;
+    border: 1px solid rgb(74, 196, 196);
+    background-color: #39a8a5;
+}
+#margen{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
 input:hover, input#mais:hover, input#mais1:hover{
     background-color: #6cd3cf;
     color: white;
