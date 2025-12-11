@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to bottom,#313131, #1e1e1e);
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+section#menu{
+    background-color: #1e2131;
+    width: 300px;
+    height: 470px;
+    border-radius: 10px;
+}
+
+h1{
+    color: #b22525;
+    text-align: center;
+}
+#celular{
+    height: 200px;
+    width: 300px;
+    padding-left: 0px;
+}
+input#iusuario, input#isenha{
+    background-color: #313030;
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 20px;
+}
+
+#registre{
+    background-color: #212121;
+    color: white;
+    margin: 0px 90px 10px 10px;
+    padding: 3px 3px 3px 3px;
+    font-family: sans-serif;
+    border-color: #313030;
+}
+
+#login{
+    
+    border-color: #ffffff;
+    background-color: #ffffff;
+    padding: 3px 3px 3px 3px;
+    font-family: sans-serif;
+}
+#continuar{
+    
+    background-color: rgba(3, 169, 244, 0.565);
+    color: white;
+    margin: 0px 0px 0px 70px;
+    padding: 3px 3px 3px 3px;
+    font-family: sans-serif;
+    border-color: rgba(3, 169, 244, 0.565);
+    
+}
+
+#registre:hover{
+    color: #2552b2;
+    background-color: #dbd9d9;
+}
+#login:hover{
+    color: #b22525;
+    background-color: #050505;
+}
+#continuar:hover{
+    color: #ffffff;
+    background-color: #070d64;
+}
+input#iusuario:hover, input#isenha:hover{
+    background-color: rgb(28, 31, 31);
+}
