@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to bottom,#313131,#1e1e1e);
+}
+main{
+    width: 100vw;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+section{
+    background-color: #1e1e1e;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+h1{
+    color: lightskyblue;
+    text-align: center;
+}
+figure{
+    padding: auto;
+    margin: auto;
+}
+img{
+    width: 100px;
+    height: 100px;
+    padding-left: 30px;
+}
+.paragrafos{
+    display: flex;
+    margin: auto;
+    padding: auto;
+    color: white;
+}
+.esquerda{
+    margin-top: 0px;
+    padding-left: 50px;
+}
+.direita{
+    margin-top: 0px;
+    padding-left: 70px;
+}

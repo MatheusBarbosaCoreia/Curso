@@ -20,7 +20,7 @@ section#menu{
 }
 
 h1{
-    color: #b22525;
+    color: rgb(62, 195, 240);
     text-align: center;
 }
 #celular{
@@ -65,16 +65,16 @@ input#iusuario, input#isenha{
 }
 
 #registre:hover{
-    color: #2552b2;
-    background-color: #dbd9d9;
+    color: #ffffff;
+    background-color: #363232dc;
 }
 #login:hover{
-    color: #b22525;
-    background-color: #050505;
+    color: #000000;
+    background-color: #ffffffaf;
 }
 #continuar:hover{
     color: #ffffff;
-    background-color: #070d64;
+    background-color: rgba(3, 168, 244, 0.452);
 }
 input#iusuario:hover, input#isenha:hover{
     background-color: rgb(28, 31, 31);
