@@ -15,12 +15,12 @@ main{
 section#menu{
     background-color: #1e2131;
     width: 300px;
-    height: 470px;
+    height:auto;
     border-radius: 10px;
 }
 
 h1{
-    color: rgb(62, 195, 240);
+    color: #b22525;
     text-align: center;
 }
 #celular{
@@ -65,16 +65,16 @@ input#iusuario, input#isenha{
 }
 
 #registre:hover{
-    color: #ffffff;
-    background-color: #363232dc;
+    color: #2552b2;
+    background-color: #dbd9d9;
 }
 #login:hover{
-    color: #000000;
-    background-color: #ffffffaf;
+    color: #b22525;
+    background-color: #050505;
 }
 #continuar:hover{
     color: #ffffff;
-    background-color: rgba(3, 168, 244, 0.452);
+    background-color: #070d64;
 }
 input#iusuario:hover, input#isenha:hover{
     background-color: rgb(28, 31, 31);
