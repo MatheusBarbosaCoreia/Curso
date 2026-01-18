@@ -55,7 +55,7 @@ h1{
 #icone3{
     font-family: 'Icones1';
 }
-input#iusuario, input#isenha{
+input#iusuario, input#isenha,input#iemail,input#iconfemail,input#iconfsenha{
     background-color: #313030;
     height: 25px;
     width: 250px;

@@ -84,7 +84,7 @@ h1{
     width: 300px;
     padding-left: 0px;
 }
-input#iusuario, input#isenha{
+input#inome, input#icusto,input#igasto,input#ilucro,input#iestoque{
     background-color: #313030;
     height: 25px;
     width: 250px;
