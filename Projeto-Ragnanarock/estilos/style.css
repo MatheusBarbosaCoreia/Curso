@@ -47,21 +47,14 @@ body{
 }
 #iconlogin{
     font-family: 'Icones2';
-    color: rgb(5, 62, 248);
+    color: rgba(0, 255, 255, 0.575);
     font-size: 26px;
     margin: 0px 0px -28px 3px;
     padding: 0px 0px 0px 0px;
 }
 #iconsenha{
     font-family: 'Icones';
-    color: rgb(5, 62, 248);
-    font-size: 25px;
-    margin: 0px 0px -28px 3px;
-    padding: 0px 0px 0px 0px;
-}
-#iconsenha{
-    font-family: 'Icones';
-    color: rgb(5, 62, 248);
+    color: rgba(0, 255, 255, 0.575);
     font-size: 25px;
     margin: 0px 0px -28px 3px;
     padding: 0px 0px 0px 0px;
@@ -146,16 +139,17 @@ input#iusuario, input#isenha{
 }
 
 #registre:hover{
-    color: #000000;
-    background-color: #6865657e;
+    box-shadow: 0px 0px 3px 2px #070707;
+
 }
 #login:hover{
-    color: #b22525;
-    background-color: #25252556;
+    box-shadow: 0px 0px 3px 2px #811616;
+
 }
 #continuar:hover{
     color: #ffffff;
-    background-color: rgba(3, 168, 244, 0.205);
+    box-shadow: 0px 0px 3px 2px rgba(3, 169, 244, 0.565);
+
 }
 input#iusuario:hover, input#isenha:hover{
     background-color: rgb(28, 31, 31);

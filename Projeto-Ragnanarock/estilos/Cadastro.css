@@ -96,7 +96,7 @@ input#iusuario, input#isenha{
     
 }
 
-#registre {
+#voltar{
     background-color: #201e1e;
     color: white;
     margin: 1px -26px 5px 43px;
@@ -105,7 +105,7 @@ input#iusuario, input#isenha{
     border: 1px solid black;
 }
 
-#login{
+#cadastrar{
     border: 1px solid black;
     background-color: #b22525;
     padding: 5px 16px 5px 5px;
@@ -114,10 +114,10 @@ input#iusuario, input#isenha{
 }
 
 
-#registre:hover{
+#voltar:hover{
     box-shadow: 0px 0px 3px 3px #5f2a2a;
 }
-#login:hover{
+#cadastrar:hover{
     box-shadow: 0px 0px 3px 3px #5f2a2a;
 }
 
